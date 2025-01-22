@@ -1,0 +1,20 @@
+{% extends "shop/base.html" %}
+
+{% block title %}خریدهای من{% endblock %}
+
+{% block content %}
+<div class="purchases-container">
+    <h1 class="purchases-title">خریدهای من</h1>
+    <div class="purchases-list">
+        {% for purchase in purchases %}
+            <div class="purchase-card">
+                <h2 class="purchase-name">اشتراک: {{ purchase.subscription.name }}</h2>
+                <p class="purchase-date">تاریخ خرید: <span>{{ purchase.purchase_date }}</span></p>
+                <p class="purchase-validity">اعتبار تا: <span>{{ purchase.valid_until }}</span></p>
+            </div>
+        {% empty %}
+            <p class="no-purchases">شما هنوز خریدی انجام نداده‌اید.</p>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

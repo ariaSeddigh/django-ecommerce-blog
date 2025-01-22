@@ -1,0 +1,22 @@
+{% extends "shop/base.html" %}
+{% load custom_filters %}
+{% block title %}ورود به حساب کاربری{% endblock %}
+
+{% block content %}
+<div class="login-container">
+    <h1 class="login-title">ورود به حساب کاربری</h1>
+    <form method="post">
+        {% csrf_token %}
+        <div class="mb-3">
+            {{ form.username|add_class:"form-control" }}
+        </div>
+        <div class="mb-3">
+            {{ form.password|add_class:"form-control" }}
+        </div>
+        <button type="submit" class="btn btn-login">ورود</button>
+    </form>
+    <div class="form-footer">
+        <p>حساب کاربری ندارید؟ <a href="/register/">ثبت‌نام کنید</a></p>
+    </div>
+</div>
+{% endblock %}

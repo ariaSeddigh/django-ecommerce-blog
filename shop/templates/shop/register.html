@@ -1,0 +1,30 @@
+{% extends "shop/base.html" %}
+
+{% load custom_filters %}
+
+{% block title %}ثبت‌نام{% endblock %}
+
+{% block content %}
+<div class="login-container">
+    <h1 class="login-title">ثبت‌نام</h1>
+    <form method="post">
+        {% csrf_token %}
+        <div class="mb-3">
+            {{ form.username|add_class:"form-control" }}
+        </div>
+        <div class="mb-3">
+            {{ form.email|add_class:"form-control" }}
+        </div>
+        <div class="mb-3">
+            {{ form.password|add_class:"form-control" }}
+        </div>
+        <div class="mb-3">
+            {{ form.password2|add_class:"form-control" }}
+        </div>
+        <button type="submit" class="btn btn-register">ثبت‌نام</button>
+    </form>
+    <div class="form-footer">
+        <p>قبلاً ثبت‌نام کرده‌اید؟ <a href="/login/">وارد شوید</a></p>
+    </div>
+</div>
+{% endblock %}

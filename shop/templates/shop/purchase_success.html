@@ -1,0 +1,19 @@
+{% extends "shop/base.html" %}
+{% load custom_filters %}
+{% block title %}خرید موفق{% endblock %}
+
+{% block content %}
+<div class="success-container">
+    <div class="icon-container">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="#6ee7b7" viewBox="0 0 24 24">
+            <path d="M20.292 5.293a1 1 0 0 0-1.414 0L9 15.172l-3.879-3.879a1 1 0 1 0-1.414 1.414l4.586 4.586a1 1 0 0 0 1.414 0l10.586-10.586a1 1 0 0 0 0-1.414z"/>
+        </svg>
+    </div>
+    <h1 class="success-title">خرید شما موفق بود!</h1>
+    <p class="success-message">از خرید شما متشکریم. اشتراک شما با موفقیت فعال شد.</p>
+    <div class="success-actions">
+        <a href="/" class="btn btn-login">بازگشت به صفحه اصلی</a>
+        <a href="/my-purchases/" class="btn btn-outline">مشاهده اشتراک‌ها</a>
+    </div>
+</div>
+{% endblock %}

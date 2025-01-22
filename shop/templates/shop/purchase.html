@@ -1,0 +1,17 @@
+{% extends "shop/base.html" %}
+{% load custom_filters %}
+
+{% block title %}خرید اشتراک{% endblock %}
+
+{% block content %}
+<div class="login-container">
+    <h1 class="login-title">خرید اشتراک</h1>
+    <form method="post">
+        {% csrf_token %}
+        <div class="mb-3">
+            {{ form.subscription|add_class:"form-control" }}
+        </div>
+        <button type="submit" class="btn btn-login">خرید</button>
+    </form>
+</div>
+{% endblock %}

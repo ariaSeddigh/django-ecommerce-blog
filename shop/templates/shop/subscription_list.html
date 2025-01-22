@@ -1,0 +1,27 @@
+{% extends "shop/base.html" %}
+
+{% block title %}اشتراک‌ها{% endblock %}
+
+{% block content %}
+<div class="subscriptions-container">
+    <div class="header-actions">
+        <h1 class="subscriptions-title">لیست اشتراک‌ها</h1>
+        <form method="post" action="{% url 'logout' %}">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-logout">خروج</button>
+        </form>
+    </div>
+
+    <div class="subscriptions-list">
+        {% for subscription in subscriptions %}
+            <div class="subscription-card">
+                <h2 class="subscription-name">{{ subscription.name }}</h2>
+                <p class="subscription-description">{{ subscription.description }}</p>
+                <p class="subscription-price">قیمت: <span>{{ subscription.price }} تومان</span></p>
+                <p class="subscription-duration">مدت: <span>{{ subscription.duration_months }} ماه</span></p>
+                <a href="/purchase" class="btn btn-subscribe">خرید این اشتراک</a>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
