@@ -41,30 +41,30 @@ shop/login page:
 shop/register page:
 
 
-![Image](https://github.com/user-attachments/assets/6f80ab14-b731-4c6c-9468-00e95376dd17)
+
+![Image](https://github.com/user-attachments/assets/e1ae0110-4e64-46c4-b51e-42507a489e57)
+
 
 
 Blog Home page:
 
 
-![Image](https://github.com/user-attachments/assets/dd10898e-fd2e-4dfb-896b-a512197defd0)
+![Image](https://github.com/user-attachments/assets/d0543cce-31b3-409a-a7f5-745df707d894)
 
 
 Post Details & Comments:
 
 
-![Image](https://github.com/user-attachments/assets/f021a4bf-780f-4369-8f0f-4ca1445e57a5)
+![Image](https://github.com/user-attachments/assets/4070b85a-4b14-4370-b14d-6fde842633d6)
 
 
 Ecommerce:
 
 
-![Image](https://github.com/user-attachments/assets/b33081c8-7f2b-47f7-ab0b-c8df8fdbad9b)
+![Image](https://github.com/user-attachments/assets/31500400-223c-4279-b16e-c2e8d1329266)
 
 
 shop/my-purchases page:
-
-
-![Image](https://github.com/user-attachments/assets/9af3c73d-9527-400b-9b50-09988ff2e649)
+![Image](https://github.com/user-attachments/assets/1a4f72a1-4e94-4692-9415-d9b358b19542)
 
 
