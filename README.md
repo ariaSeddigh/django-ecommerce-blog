@@ -35,7 +35,7 @@ A full-featured ecommerce platform with integrated blog functionality built with
 shop/login page:
 
 
-![Image](https://github.com/user-attachments/assets/84c8a00e-ba9e-409e-8490-23c3b21c9b58)
+![Image](https://github.com/user-attachments/assets/709af7cb-d3a2-4d38-92c3-9d14060cfe7b)
 
 
 shop/register page:
