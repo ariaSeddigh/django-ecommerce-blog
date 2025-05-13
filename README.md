@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/64c12b43-6ecc-470d-9683-673763de5d37)# Django Ecommerce & Blog
+# Django Ecommerce & Blog
 
 ![Django Ecommerce Blog](https://img.shields.io/badge/Django-3.2-green) 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
@@ -34,22 +34,37 @@ A full-featured ecommerce platform with integrated blog functionality built with
 
 shop/login page:
 
+
 ![Image](https://github.com/user-attachments/assets/84c8a00e-ba9e-409e-8490-23c3b21c9b58)
+
 
 shop/register page:
 
+
 ![Image](https://github.com/user-attachments/assets/6f80ab14-b731-4c6c-9468-00e95376dd17)
+
 
 Blog Home page:
 
+
 ![Image](https://github.com/user-attachments/assets/dd10898e-fd2e-4dfb-896b-a512197defd0)
+
 
 Post Details & Comments:
 
+
 ![Image](https://github.com/user-attachments/assets/f021a4bf-780f-4369-8f0f-4ca1445e57a5)
 
+
 Ecommerce:
+
+
 ![Image](https://github.com/user-attachments/assets/b33081c8-7f2b-47f7-ab0b-c8df8fdbad9b)
 
+
 shop/my-purchases page:
+
+
 ![Image](https://github.com/user-attachments/assets/9af3c73d-9527-400b-9b50-09988ff2e649)
+
+
